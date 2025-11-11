@@ -1,0 +1,14 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  /* 確保頁面可以捲動 */
+  height: 200%; /* 範例高度，讓頁面出現捲軸 */
+}
+
+canvas {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1; /* 將 canvas 放置在最底層 */
+}
